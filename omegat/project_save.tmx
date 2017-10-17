@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.1.2_2_10096:10098" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.6.0_7_r9970:10059" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -22,10 +22,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x1/&gt; GDAL API Tutorial</seg>
+      </tuv>
+      <tuv lang="JA" changeid="yellow" changedate="20171017T074839Z" creationid="yellow" creationdate="20171017T074839Z">
+        <seg>&lt;x1/&gt; GDAL API チュートリアル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x1/&gt; Opening the File</seg>
+      </tuv>
+      <tuv lang="JA" changeid="yellow" changedate="20171017T074847Z" creationid="yellow" creationdate="20171017T074847Z">
+        <seg>&lt;x1/&gt; ファイルを開く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As a library, it presents a &lt;g4&gt; single raster abstract data model&lt;/g4&gt; and &lt;g5&gt; single vector abstract data model&lt;/g5&gt; to the calling application for all supported formats.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20171009T115229Z" creationid="miurahr" creationdate="20171009T115229Z">
         <seg>ライブラリは、&lt;g4&gt;単一のラスター抽象データモデル&lt;/g4&gt;と&lt;g5&gt;単一のベクター抽象データモデル&lt;/g5&gt;を定義して、アプリケーションから全てのサポートされているデータ形式を利用できるようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Before opening a GDAL supported raster datastore it is necessary to register drivers.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="yellow" changedate="20171017T074928Z" creationid="yellow" creationdate="20171017T074928Z">
+        <seg>GDALが対応するラスターデータストアを開く前に、ドライバを登録する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is a driver for each supported format.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="yellow" changedate="20171017T075007Z" creationid="yellow" creationdate="20171017T075007Z">
+        <seg>対応するフォーマットごとにドライバがあります。</seg>
       </tuv>
     </tu>
     <tu>
