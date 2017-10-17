@@ -54,6 +54,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Normally this is accomplished with the GDALAllRegister() function which attempts to register all known drivers, including those auto-loaded from .so files using GDALDriverManager::AutoLoadDrivers().</seg>
+      </tuv>
+      <tuv lang="JA" changeid="yellow" changedate="20171017T075315Z" creationid="yellow" creationdate="20171017T075220Z">
+        <seg>通常、GDALDriverManager::AutoLoadDrivers()による.soファイルからの自動ロードを含む全ての既知のドライバの登録を試みるGDALAllRegister()関数で達成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python automatically calls GDALAllRegister() when the gdal module is imported.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="yellow" changedate="20171017T075416Z" creationid="yellow" creationdate="20171017T075416Z">
+        <seg>Pythonはgdalモジュールがインポートされた時に、自動的にGDALAllRegister()を呼びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is a driver for each supported format.</seg>
       </tuv>
       <tuv lang="JA" changeid="yellow" changedate="20171017T075007Z" creationid="yellow" creationdate="20171017T075007Z">
