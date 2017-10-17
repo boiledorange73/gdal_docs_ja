@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If for some applications it is necessary to limit the set of drivers it may be helpful to review the code from &lt;g1&gt;gdalallregister.cpp&lt;/g1&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="yellow" changedate="20171017T080005Z" creationid="yellow" creationdate="20171017T080005Z">
+        <seg>アプリケーションがドライバの集合を制限する場合には、&lt;g1&gt;gdalallregister.cpp&lt;/g1&gt;からのコードの調査が助けになるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Normally this is accomplished with the GDALAllRegister() function which attempts to register all known drivers, including those auto-loaded from .so files using GDALDriverManager::AutoLoadDrivers().</seg>
       </tuv>
       <tuv lang="JA" changeid="yellow" changedate="20171017T075315Z" creationid="yellow" creationdate="20171017T075220Z">
@@ -64,8 +72,8 @@
       <tuv lang="EN-US">
         <seg>Once the drivers are registered, the application should call the free standing GDALOpen() function to open a dataset, passing the name of the dataset and the access desired (GA_ReadOnly or GA_Update).</seg>
       </tuv>
-      <tuv lang="JA" changeid="yellow" changedate="20171017T075544Z" creationid="yellow" creationdate="20171017T075544Z">
-        <seg>ドライバが登録されたら、データセットを開く関数GDALOpen()Once the drivers are registered, the application should call the free standing GDALOpen() function to open a dataset, passing the name of the dataset and the access desired (GA_ReadOnly or GA_Update).</seg>
+      <tuv lang="JA" changeid="yellow" changedate="20171017T075809Z" creationid="yellow" creationdate="20171017T075544Z">
+        <seg>ドライバが登録されたら、アプリケーションから、フォーマットに関係なくデータセットを開き、データセット名と求めるアクセス (GA_ReadOnlyまたはGA_Update)とを渡す関数GDALOpen()が呼ばれます。</seg>
       </tuv>
     </tu>
     <tu>
