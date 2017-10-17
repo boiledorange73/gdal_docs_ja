@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once the drivers are registered, the application should call the free standing GDALOpen() function to open a dataset, passing the name of the dataset and the access desired (GA_ReadOnly or GA_Update).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="yellow" changedate="20171017T075544Z" creationid="yellow" creationdate="20171017T075544Z">
+        <seg>ドライバが登録されたら、データセットを開く関数GDALOpen()Once the drivers are registered, the application should call the free standing GDALOpen() function to open a dataset, passing the name of the dataset and the access desired (GA_ReadOnly or GA_Update).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Python automatically calls GDALAllRegister() when the gdal module is imported.</seg>
       </tuv>
       <tuv lang="JA" changeid="yellow" changedate="20171017T075416Z" creationid="yellow" creationdate="20171017T075416Z">
